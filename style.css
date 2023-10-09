@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Slab';
+    height: 100%;
+    margin: 0;
+    background-color: #F9F8F2;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    background-color: #F9F8F2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.logo{
+    font-weight: 100;
+    font-size: 32px;
+    color: #D68861;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-small{
+    display: none;
+}
+
+.navbar-menu{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu ul{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 16px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navbar-menu ul li{
+    list-style-type: none;
+}
+
+.navbar-menu ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #040403;
+    padding: 4px 16px 4px 16px;
+    border-radius: 999px;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-menu ul li a:hover{
+    background-color: #D68861;
+    color: #F9F8F2;
+}
+
+.navbar-side{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 32px;
+}
+
+.navbar-side{
+    display: flex;
+    align-items: center;
+}
+.navbar-side ul{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 8px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navbar-side ul li{
+    list-style-type: none;
+}
+
+.navbar-side ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #040403;
+    transition: all .2s ease-in-out;
+    padding: 8px;
+}
+
+.navbar-side ul li a:hover{
+    color: #D68861;
+}
+
+button{
+    background-color: #fafafa;
+    cursor: pointer;
+    border: 2px solid #D68861;
+    padding: 10px 16px;
+    color: #D68861;
+    font-weight: bold;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    transition: all .15s ease-in;
+}
+
+button:hover{
+    color: #fafafa;
+    background-color: #D68861;
+}
+
+.hamburger{
+    display: none;
+}
+
+/* Hero Section */
+
+.hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 96px;
+    margin-right: 96px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.hero-text{
+    height: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.hero-text p{
+    margin-bottom: 32px;
+    padding: 0;
+}
+
+.hero-text h1{
+    font-size: 56px;
+    font-weight: 100;
+}
+
+.hero-text p{
+    font-size: 16px;
+}
+
+h1, h3{
+    margin-bottom: 24px;
+}
+
+
+.hero-text .bold-text{
+    font-weight: bold;
+}
+
+.hero-text h2{
+    font-weight: 100;
+    font-size: 24px;
+}
+.hero-image-container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.hero-image{
+    object-fit: cover;
+    border-radius: 999px;
+}
+
+
+@media screen and (max-width: 975px){
+    .logo{
+        display: none;
+    }
+    .logo-small{
+        width: 40px;
+        margin: 0;
+        display: grid;
+        align-items: center;
+        cursor: pointer;
+    }
+    .navbar-side{
+        gap: 16px;
+    }
+    .navbar-side ul{
+        display: none;
+    }
+    .navbar-menu ul{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+    .hamburger a{
+        font-size: 20px;
+        color: #040403;
+        padding: 8px;
+        transition: all .2s ease-in-out;
+    }
+    
+    .hamburger a:hover{
+        color: #D68861;
+    }
+    button{
+        font-size: 14px;
+    }
+
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .hero-image{
+        object-fit: cover;
+        border-radius: 999px;
+        width: 320px;
+        height: 320px;
+    }
+    .hero-image-container{
+        order: -1;
+        margin-bottom: 24px;
+    }
+}
