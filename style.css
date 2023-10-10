@@ -150,8 +150,8 @@ button:hover{
     justify-content: center;
     margin-left: 96px;
     margin-right: 96px;
-    margin-top: 64px;
-    margin-bottom: 64px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .hero-text{
@@ -213,8 +213,8 @@ h1, h3{
     justify-content: center;
     margin-left: 96px;
     margin-right: 96px;
-    margin-top: 64px;
-    margin-bottom: 64px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 h2{
@@ -319,7 +319,7 @@ h2{
         font-size: 14px;
     }
 
-    h1{
+    h1,h2{
         text-align: center;
     }
     .hero-container{
