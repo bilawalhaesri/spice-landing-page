@@ -1,2 +1,2 @@
-`# spice-landing-page
+# spice-landing-page
 Spice Virtual Assistant Services Landing Page
