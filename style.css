@@ -315,6 +315,60 @@ h2{
     color: #D68861;
 }
 
+/* Section 4 */
+.section-4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3E2D8;
+}
+
+.section-4-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 96px;
+    margin-right: 96px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.section-4-card-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.section-4-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 320px;
+    height: auto;
+    padding: 24px;
+}
+
+.section-4-card-text{
+    text-align: center;
+}
+
+.section-4-card-text h3{
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 200;
+}
+
 @media screen and (max-width: 425px){
     .logo{
         display: none;
@@ -466,6 +520,35 @@ h2{
     .section-3-text{
         text-align: center;
     }
+
+    /* Section 4 */
+    .section-4-container{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .section-4-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        width: 240px;
+        height: auto;
+        padding: 24px;
+    }
+    
+    .section-4-container h2{
+        font-size: 32px;
+    }
+
+    .section-4-card-text h3{
+        font-size: 24px;
+    }
+
+    .section-4-card-text p{
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 992px){
@@ -538,5 +621,28 @@ h2{
     .section-3-image{
         width: 400px;
         align-self: center;
+    }
+
+    .section-4-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        width: 320px;
+        height: auto;
+        padding: 24px;
+    }
+    
+    .section-4-container h2{
+        font-size: 40px;
+    }
+
+    .section-4-card-text h3{
+        font-size: 24px;
+    }
+
+    .section-4-card-text p{
+        font-size: 14px;
     }
 }
