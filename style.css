@@ -193,6 +193,8 @@ h1, h3{
 .hero-image{
     object-fit: cover;
     border-radius: 999px;
+    width: 480px;
+    height: 480px;
 }
 
 /* Section 2 */
