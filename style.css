@@ -253,6 +253,7 @@ h2{
 
 .card-text p{
     text-align: center;
+    font-size: 16px;
 }
 
 .price{
@@ -367,6 +368,66 @@ h2{
     font-size: 24px;
     margin-bottom: 16px;
     font-weight: 200;
+}
+
+/* Section 5 */
+.section-5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9F8F2;
+}
+
+.section-5-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 96px;
+    margin-right: 96px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.section-5-card-container{
+    display: flex;
+    width: 100%;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.section-5-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 320px;
+    height: auto;
+    padding: 24px 40px;
+}
+
+.section-5-card-container img{
+    width: 160px;
+    height: 160px;
+    border-radius: 999px;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+.section-5-card-text h2{
+    margin-bottom: 16px;
+}
+
+.section-5-card-text p{
+    text-align: center;
 }
 
 @media screen and (max-width: 425px){
@@ -516,10 +577,6 @@ h2{
     .section-3-text p{
         font-size: 14px;
     }
-    
-    .section-3-text{
-        text-align: center;
-    }
 
     /* Section 4 */
     .section-4-container{
@@ -549,6 +606,36 @@ h2{
     .section-4-card-text p{
         font-size: 14px;
     }
+
+    /* Section 5 */
+    .section-5-container{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .section-5-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        width: 240px;
+        height: auto;
+        padding: 24px;
+    }
+
+    .section-5-container h2{
+        font-size: 32px;
+    }
+
+    .section-5-card-text h2{
+        font-size: 32px;
+    }
+
+    .section-5-card-text p{
+        font-size: 14px;
+    }
+    
 }
 
 @media screen and (min-width: 426px) and (max-width: 992px){
