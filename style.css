@@ -11,13 +11,15 @@ body{
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    position: relative;
 }
 
 .navbar{
-    background-color: #F9F8F2;
+    background-color: #5B7D6F;
     width: 100%;
     display: flex;
     align-items: center;
+    position: fixed;
 }
 
 .navbar-container{
@@ -28,14 +30,14 @@ body{
     align-items: center;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .logo{
     font-weight: 100;
     font-size: 32px;
-    color: #D68861;
+    color: #FFFFFF;
     margin: 0;
     padding: 0;
     display: grid;
@@ -67,7 +69,7 @@ body{
 .navbar-menu ul li a{
     font-size: 16px;
     text-decoration: none;
-    color: #040403;
+    color: #FFFFFF;
     padding: 4px 16px 4px 16px;
     border-radius: 999px;
     transition: all .2s ease-in-out;
@@ -103,7 +105,7 @@ body{
 .navbar-side ul li a{
     font-size: 20px;
     text-decoration: none;
-    color: #040403;
+    color: #FFFFFF;
     transition: all .2s ease-in-out;
     padding: 8px;
 }
@@ -151,7 +153,7 @@ button:hover{
     justify-content: center;
     margin-left: 96px;
     margin-right: 96px;
-    margin-top: 80px;
+    margin-top: 160px;
     margin-bottom: 80px;
 }
 
@@ -526,7 +528,7 @@ footer{
     }
     .hamburger a{
         font-size: 16px;
-        color: #040403;
+        color: #FFFFFF;
         padding: 8px;
         transition: all .2s ease-in-out;
     }
@@ -732,7 +734,7 @@ footer{
     }
     .hamburger a{
         font-size: 20px;
-        color: #040403;
+        color: #FFFFFF;
         padding: 8px;
         transition: all .2s ease-in-out;
     }
