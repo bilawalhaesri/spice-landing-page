@@ -15,6 +15,14 @@ body{
 }
 
 .navbar{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar-scroll{
     background-color: #5B7D6F;
     width: 100%;
     display: flex;
