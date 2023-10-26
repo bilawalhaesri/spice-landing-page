@@ -20,6 +20,7 @@ body{
     display: flex;
     align-items: center;
     position: fixed;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .navbar-scroll{
@@ -28,6 +29,7 @@ body{
     display: flex;
     align-items: center;
     position: fixed;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .navbar-container{
@@ -38,11 +40,23 @@ body{
     align-items: center;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .logo{
+    font-weight: 100;
+    font-size: 32px;
+    color: #D68861;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.logo-scroll{
     font-weight: 100;
     font-size: 32px;
     color: #FFFFFF;
@@ -51,6 +65,7 @@ body{
     display: grid;
     align-items: center;
     cursor: pointer;
+    transition: color 0.3s ease-in-out;
 }
 
 .logo-small{
@@ -77,15 +92,24 @@ body{
 .navbar-menu ul li a{
     font-size: 16px;
     text-decoration: none;
+    color: #D68861;
+    padding: 4px 16px 4px 16px;
+    border-radius: 999px;
+    transition: all .3s ease-in-out;
+}
+
+.navbar-menu-scroll ul li a{
+    font-size: 16px;
+    text-decoration: none;
     color: #FFFFFF;
     padding: 4px 16px 4px 16px;
     border-radius: 999px;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .navbar-menu ul li a:hover{
     background-color: #D68861;
-    color: #F9F8F2;
+    color: #F9F8F2 !important;
 }
 
 .navbar-side{
@@ -113,13 +137,13 @@ body{
 .navbar-side ul li a{
     font-size: 20px;
     text-decoration: none;
-    color: #FFFFFF;
-    transition: all .2s ease-in-out;
+    color: #D68861;
+    transition: all .3s ease-in-out;
     padding: 8px;
 }
 
 .navbar-side ul li a:hover{
-    color: #D68861;
+    color: #D68861 !important;
 }
 
 button{
@@ -485,7 +509,7 @@ footer{
     font-size: 20px;
     text-decoration: none;
     color: #F9F8F2;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
     padding: 8px;
 }
 
@@ -538,11 +562,11 @@ footer{
         font-size: 16px;
         color: #FFFFFF;
         padding: 8px;
-        transition: all .2s ease-in-out;
+        transition: all .3s ease-in-out;
     }
     
     .hamburger a:hover{
-        color: #D68861;
+        color: #D68861 !important;
     }
     button{
         font-size: 14px;
@@ -744,11 +768,11 @@ footer{
         font-size: 20px;
         color: #FFFFFF;
         padding: 8px;
-        transition: all .2s ease-in-out;
+        transition: all .3s ease-in-out;
     }
     
     .hamburger a:hover{
-        color: #D68861;
+        color: #D68861 !important;
     }
     button{
         font-size: 14px;
