@@ -644,14 +644,14 @@ footer{
         align-items: center;
         justify-content: center;
         background-color: #F9F8F2;
-        width: 240px;
-        height: 520px;
+        width: 256px;
+        height: 536px;
         padding: 16px;
     }
 
     .card-image-container{
-        min-width: 208px;
-        min-height: 208px;
+        min-width: 224px;
+        min-height: 224px;
         margin-bottom: 16px;
     }
     
