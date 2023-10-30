@@ -1,5 +1,5 @@
 function navbarScroll(){
-    if(window.scrollY>100){
+    if(window.scrollY>0){
         $('header').addClass('navbar-scroll');
         $('header').removeClass('navbar');
         $('.logo').css('color','#F9F8F2');
