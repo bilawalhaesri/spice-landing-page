@@ -572,8 +572,8 @@ footer{
         display: block;
     }
     .hamburger a{
-        font-size: 16px;
-        color: #D68861 !important;
+        font-size: 20px;
+        color: #D68861;
         padding: 8px;
         transition: all .3s ease-in-out;
     }
@@ -744,12 +744,12 @@ footer{
     
     /* Footer */
     .footer-container p{
-        font-size: 14px;
+        font-size: 16px;
         text-align: center;
         color: #F9F8F2;
     }
     .footer-sm-menu li a{
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 
@@ -778,7 +778,7 @@ footer{
         display: block;
     }
     .hamburger a{
-        font-size: 20px;
+        font-size: 24px;
         color: #D68861;
         padding: 8px;
         transition: all .3s ease-in-out;
@@ -855,6 +855,6 @@ footer{
         color: #F9F8F2;
     }
     .footer-sm-menu li a{
-        font-size: 20px;
+        font-size: 24px;
     }
 }
